@@ -13,7 +13,9 @@ logingTest
     Wait Until Element Is Visible    link=Logout    
     Click Element    link=Logout  
     Log   ceci_est_un_test_execute par %{username} dans %{os}
+    Log    ceci est simple text
     Log    Fin de test
+    
     
 *** Variables ***
 ${url}      https://opensource-demo.orangehrmlive.com/index.php/auth/login   # c'est un URL  
